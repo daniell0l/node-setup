@@ -11,6 +11,7 @@ export class UsersController {
       name,
       idade
     })
+    return res.status(201).json(user)
   }
   async update(req: Request, res: Response) {}
   async destroy(req: Request, res: Response) {}
