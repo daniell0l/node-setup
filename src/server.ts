@@ -8,5 +8,6 @@ app.use(json());
 app.use(router);
 
 app.listen(3333, async () => {
-  console.log(`servidor rodando na porta 3333`);
+  await db.sync();
+  console.log(`servidor rodando na porta 3333!`);
 });
