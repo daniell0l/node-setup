@@ -1,0 +1,9 @@
+### Create
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "email":"daniel_l0l@hotmail.com",
+  "nome":"Daniel Medrado",
+  "idade": 27
+}
